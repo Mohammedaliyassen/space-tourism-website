@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="../style.css">
+
+  <title>Frontend Mentor | Space tourism website</title>
+</head>
+<body class="bodycrow">
+
+  <img src="../assets/shared/logo.svg">
+  <svg height="210" width="500">
+    <line x1="0" y1="0" x2="500" y2="000" style="stroke:rgba(255,255,255,.5);stroke-width:2" />
+  </svg>
+
+  <header> 
+    <img src="../assets/shared/icon-close.svg" class="close"> 
+    <img src="../assets/shared/icon-hamburger.svg" class="open"> 
+    <ul class="main">
+      <li class="list"><a href="../index.html"> 00 Home </a></li>
+      <li class="list"><a href="destination.html" > 01 Destination </a></li><!--هنحطها قائمة منسدلة اسماء الكواكب -->
+      <li class="list"><a href="crew.html" style="border-bottom:  4px solid white;"> 02 Crew </a></li>
+      <li class="list"><a href="technology.html"> 03 Technology </a></li>
+  </ul>
+</header>
+ <section class="secCrow">
+  <div class="the-crow">
+    <button class="Commander" onclick="Commander()">Commander</button>
+    <button class="MissionSpecialist" onclick="MissionSpecialist()">Mission Specialist</button>
+    <button class="Pilot" onclick="Pilot()">Pilot</button>
+    <button class="FlightEngineer" onclick="FlightEngineer()">Flight Engineer</button>
+  </div>
+  <div class="info">
+
+    <img src="" width="100" id="images"> 
+
+    <h1 id="name" >
+    </h1>
+
+    <p id="bio">
+    </p>
+    
+    <p id="role" style=" color:#04ffd1c7; font-size: 25px; " >
+      
+    </p>
+  
+</div>
+
+</section>
+<script src="../app.js">
+  document.querySelector('body').style.cssText="background:url('../assets/crew/background-crew-tablet.jpg')";
+  
+</script>
+</body>
+</html>

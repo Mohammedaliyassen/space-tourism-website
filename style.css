@@ -1,0 +1,593 @@
+*{
+    transition: 3s;
+}
+
+body{
+    background: url('assets/home/background-home-desktop.jpg') no-repeat ;
+    color: white;
+    font-family: 'Bitter', serif;
+}
+header{
+    background: linear-gradient(45deg,#131522,#131522,#53617c,#172846,#172645);
+    float: right;
+    padding: 0px;
+    margin-right: -10px;
+    margin-top: 20px;
+    width: 60vw;height: 78px;
+}
+.close{
+    visibility: hidden;
+    transition: 0s;
+}
+img{
+    position:absolute;
+    margin: 40px;
+}
+header .main {
+    list-style: none;
+    text-align: center;
+}
+header .main li {
+    display: inline-block;
+    margin: 10px;
+}
+.main li a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    padding-bottom: 29px;
+    transition: .2s;
+    transform-origin: left;
+}
+.list a:hover{
+    border-bottom: white 4px solid;
+    transform-origin: left;
+    transition: .2s;
+}
+
+section{
+    position: relative;
+    padding: 10px;display: grid;
+    top: 300px;
+    left: 100px;
+}
+section h1{
+    font-size: 100px;
+    letter-spacing: 15px;
+    margin: 20px 0;
+    font-weight:lighter;
+}
+section .see {
+    font-size: 25px;
+    text-transform:uppercase;
+    margin: 0;
+    word-spacing: 10px;
+}
+.spa{
+    font-size: 20px;
+    width: 390px;
+    padding: 0;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+}
+#calc span:hover{
+    background-color: black;
+    color: white;
+    transition: 1s;
+}
+span{
+    transition: 1s;
+    background-color: white;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    color: black;
+    font-size: 30px;
+    position: absolute;
+    padding: 20px;
+    margin: auto 900px;
+    text-align: center;
+    top: 145px;
+    cursor: pointer;
+}
+span p {
+    padding-top: 25px;
+}
+svg{
+    position: absolute;
+    top: 70px;
+    left: 90px;
+}
+.close{
+    visibility: hidden;
+}
+.open{
+    visibility: hidden;
+}
+/* ------------- The Plant -------------- */
+.bodyDest{
+    background:url('assets/destination/background-destination-desktop.jpg') center;
+    background-attachment: fixed; background-size: cover;
+}
+
+section img {
+    position: absolute;
+    left: 120%;
+    top: -70%;
+}
+.the-plant h1{
+    position: relative;
+    left: 30%;
+    bottom: 20%;
+}
+.the-plant p{
+    position: absolute;
+    width: 30vw;
+    left: 12vw;
+    font-size: 20px;
+    font-weight:lighter;color: rgba(255, 255, 255, 0.473);
+}
+.plants{
+    position: absolute;
+}
+.plants div {
+    display: inline;
+    position: absolute;
+    bottom: 200px;
+    cursor: pointer;
+}
+.plants div:nth-child(2) {
+    position: absolute;
+    left: 150px;
+}
+.plants div:nth-child(3) {
+    position: absolute;
+    left: 300px;
+}
+.plants div:nth-child(1) {
+    position: absolute;
+    left: 450px;
+}
+.colectDistance{
+    position: absolute;
+    top: 0px;
+}
+
+/* ------------- The Crow ------------ */
+.bodycrow{
+    background:url('assets/crew/background-crew-desktop.jpg') no-repeat ;
+    background-size: cover;background-attachment: fixed;
+    height: auto;
+}
+.the-crow{
+    width: 600px;
+    position: relative;
+    top: -200px;
+}
+.info p{
+    position: relative;
+    width: 40vw;
+    left: 0vw;
+    font-size: 20px;
+    font-weight:lighter;color: rgba(255, 255, 255, 0.473);
+}
+section .info h1{
+    font-size: 60px;
+    margin: 0px 0;
+    font-weight:lighter;
+    letter-spacing: 2px;
+}
+.the-crow button{
+    width: 120px;
+    border: none;
+    background: linear-gradient(45deg, #1b1e27, #171a23);
+    height: 50px;
+    border-radius: 20px;
+    color: white;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.info #images{
+    position: absolute;
+    left: 150%;
+    top: -15%;
+    border: 1px solid;
+    width: 200px;
+    background-color: #000;
+}
+/* ------------- Technology ------------- */
+.bodyTechno{
+    background:url('assets/technology/background-technology-desktop.jpg') center ;
+    background-attachment: fixed;background-size: cover;
+}
+.techno{
+    width: 95vw;padding: 10px;
+    position: absolute;top: -100px;left: -100px;
+    color: white;
+}
+.techno p {
+    width: 600px;margin: 0;margin-right: -300px;
+    display: inline-block;left: -230px;;font-size: 20px;
+    position: relative;bottom: 150px;color: #b6cdff7a;;
+}
+.techno img{
+    position: relative;
+    display: inline;
+    left: 0;margin: 10px;
+    cursor: pointer;
+}
+.techno h1 {
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 0;
+    position: absolute;
+    left: 105px;
+}
+.first img{
+    position: relative;left:68%;
+}
+.second h1{
+    left: 37vw;
+}
+.second p{
+    left: 80px;
+}
+.third img{
+    position: relative;left:67.5%;
+}
+
+
+/* ---------- Media query for Taplet 1024 Paxels ----------- */
+
+@media(max-width:1024px) {
+    body{
+        background: url(assets/home/background-home-tablet.jpg) no-repeat center;
+        background-attachment: fixed;
+        background-size: cover;
+        width: 900px;
+    }
+    span{
+        transition: 1s;
+        background-color: white;
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        color: black;
+        font-size: 30px;
+        position: absolute;
+        padding: 20px;
+        margin: auto 450px;
+        text-align: center;
+        top: 145px;
+        cursor: pointer;
+    }
+    svg{
+        width: 350px;
+    }
+    .spa{
+        font-size: 20px;
+        width: 390px;
+        padding: 0;
+        margin-top: 10px;
+        color: #04ffd1a1;
+    }
+    /* ----------- Plants --------- */
+    .bodyDest{
+        background:url('assets/destination/background-destination-tablet.jpg') center;
+        background-attachment: fixed; background-size: cover;
+    }
+    #images{
+        width: 240px;top: -15%;
+    }
+    .the-plant h1{
+        position: relative;
+        left: 30%;
+        bottom: 20%;
+        font-size: 70px;
+    }
+    .colectDistance{
+        position: absolute;
+        top: 20px;
+        left: -56px;
+    }
+    .colectDistance #travelM{
+        left: 440px;
+    }
+    .colectDistance #travel{
+        left: 595px;
+    }
+/* ------------ Crow ------------- */
+    .bodycrow{
+        background:url('assets/crew/background-crew-tablet.jpg') center ;
+        background-size: cover;background-attachment: fixed;
+    }
+    .info #images{
+        position: absolute;
+        left: 125%;
+        top: -15%;
+        border: 1px solid;
+        width: 200px;
+        background-color: #000;
+    }
+    section .info h1{
+        font-size: 50px;
+        margin: 10px 0;
+        font-weight:lighter;
+        letter-spacing: 2px;
+    }
+    .bio{
+        margin-top: 35px;
+    }
+    .the-crow{
+        width: 900px;
+        position: relative;
+        top: -160px;
+    }
+    .the-crow button{
+        width: 120px;
+        border: none;
+        background: linear-gradient(45deg, #10131c, #1d273a);
+        height: 50px;
+        border-radius: 20px;
+        color: white;
+        margin: 0 35px;
+        cursor: pointer;
+    }
+    /* ------------- Technology ------------- */
+    .bodyTechno{
+        background:url('assets/technology/background-technology-tablet.jpg')  center;
+        background-attachment: fixed;background-size: cover;
+    }
+    
+    .techno h1 {
+        font-size: 28px;
+        text-align: center;
+        letter-spacing: 0;
+        position: absolute;
+        left: 60px;
+    }
+    .techno p {
+        width: 450px;margin: 0;margin-right: -300px;
+        display: inline-block;left: 50px;font-size: 20px;
+        position: relative;bottom: 125px;color: #b6cdff7a;;
+    }
+    .first img{
+        position: relative;left:45%;
+    }
+    .second h1,p{
+        left: 43vw;
+    }
+    .third img{
+        position: relative;left: 63.5%;
+    }
+    .third p {
+        left: -30vw;
+    }
+
+}
+.close{
+    visibility: hidden;
+}
+.open{
+    visibility: hidden;
+}
+/* ---------- Media query for Phones 500 Paxels ----------- */
+
+@media(max-width:511px) {
+    body{
+        background: url(assets/home/background-home-mobile.jpg) no-repeat center;
+        background-attachment: fixed;
+        background-size: cover;
+        width: 410px;
+    }
+    span{
+        transition: 1s;
+        background-color: white;
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        color: black;
+        font-size: 30px;
+        position: absolute;
+        padding: 20px;
+        top: 500px;
+        cursor: pointer;
+        left: -355px;
+    }
+    svg{
+        width: 300px;;
+    }
+    .spa{
+        font-size: 20px;
+        width: 390px;
+        padding: 0;
+        margin-top: 10px;
+        color: #b79898cc;
+    }
+    .section1{
+        position: relative;
+        padding: 10px;
+        display: grid;
+        top: 194px;
+        left: 0px;
+        
+    }
+    .section1 .see {
+        text-align: center;
+        width: 360px;
+    }
+    header{
+        visibility: hidden;
+        width: 110%;
+        height: 110%;
+        position: fixed;
+        z-index: 100;transition: 0s;
+        right: -25px;top: -25px;
+    }
+    header .main{
+        transition: 0s;
+    }
+    header .main li{
+        display: block;
+        margin: 100px;
+        position: relative;
+        right: 40px;
+        top: 65px;
+        transition: 0s;
+    }
+    header .main li a{
+        font-size: 30px;transition: 0s;
+    }
+    .close{
+        position: fixed;
+        left: 350px;top: 20px;
+        visibility: hidden;
+        transition: 0s;z-index: 100;
+    }
+    .open{
+        position: fixed;top: 20px;
+        visibility: visible;left: 350px;transition: 0s;
+    }
+    /* ------------- plants ------------ */
+    body{
+        background: url(assets/destination/background-destination-mobile.jpg) no-repeat center;
+        background-attachment: fixed;
+        background-size: cover;
+        width: 410px;
+    }
+    .plants{
+        left: -15px;
+    }
+    .plants div:nth-child(2) {
+        position: absolute;
+        left: 150px;
+    }
+    .plants div:nth-child(3) {
+        position: absolute;
+        left: 0;
+        bottom: 50px;
+    }
+    .plants div:nth-child(1) {
+        position: absolute;
+        left: 150px;
+        bottom: 50px;
+    }
+    .the-plant{
+        width: 411px;
+        position: absolute;
+        top: 100px;
+        left: -70px;
+        padding-bottom:25px ;
+    }
+    .the-plant p {
+        position: initial;
+        width: 380px;;
+        font-size: 20px;
+        font-weight: lighter;
+        color: rgba(255, 255, 255, 0.473);
+    }
+    .the-plant h1 {
+        position: initial;
+        font-size: 70px;
+    }
+    .the-plant #images{
+        width: 200px;
+        position: initial;
+
+    }
+    .colectDistance{
+        position: initial;
+    }
+    .colectDistance p{
+        position: initial;
+        display: inline;
+    }
+    /* ------------Crow------------- */
+    .the-crow{
+        width: 411px;
+        position: relative;
+        top: -145px;
+    }
+    .the-crow button {
+        width: 200px;
+        display: block;
+        border: none;
+        background: linear-gradient(45deg, #10131c, #1d273a);
+        height: 50px;
+        border-radius: 20px;
+        color: white;
+        margin: 20px 125px;
+        cursor: pointer;
+        font-size: 20px;
+    }.info{
+        position: relative;
+        width: 411px;
+        left: 0vw;
+        font-size: 20px;
+        font-weight: lighter;
+        color: rgba(255, 255, 255, 0.473);
+    }
+    .info #images{
+        position: relative;
+        left: 50px;
+        top: 0%;
+        border: 1px solid;
+        width: 200px;
+        background-color: #000;
+    }
+    section .info h1{
+        font-size: 50px;
+        margin: 10px;
+        font-weight: lighter;
+        letter-spacing: 2px;
+    }
+    .info p {
+        position: relative;
+        width: 350px;
+        left: 3vw;
+        font-size: 20px;
+        font-weight: lighter;
+        color: rgba(255, 255, 255, 0.473);
+    }
+    .secCrow{
+        position: relative;
+        padding: 10px;
+        display: grid;
+        width: 411px;
+        top: 300px;
+        left: 0px;
+    }
+    /* ---------Techno----------- */
+    .bodyTechno{
+        background:url('assets/technology/background-technology-mobile.jpg') center ;
+        background-attachment: fixed;background-size: cover;
+    }
+    .techno{
+        width: 95vw;padding: 10px;
+        position: absolute;top: -100px;left: -100px;
+        color: white;
+    }
+    .techno p {
+        width: 380px;
+        margin: 0;
+        font-size: 20px;
+        position: inherit;
+        color: #b6cdff7a;
+    }
+    .techno img{
+        position: inherit;
+        display: inline-block;
+        left: 0;margin: 10px;
+        cursor: pointer;
+    }
+    .techno h1 {
+        font-size: 28px;
+        text-align: center;
+        letter-spacing: 0;
+        position: inherit;
+        left: 210px;
+        width: 320px;
+    }
+    
+   
+}

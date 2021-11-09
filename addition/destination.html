@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="../style.css">
+
+  <title>Frontend Mentor | Space tourism website</title>
+</head>
+<body  class="bodyDest">
+
+<img src="../assets/shared/logo.svg">
+  <svg height="210" width="500">
+    <line x1="0" y1="0" x2="500" y2="000" style="stroke:rgba(255,255,255,.5);stroke-width:2" />
+  </svg>
+
+  <header style=" background: linear-gradient
+  (45deg,#131522,#131522,#2c3442,#0d1625,#090f1b);"> 
+
+    <img src="../assets/shared/icon-close.svg" class="close" style="transition: 0s;"> 
+    <img src="../assets/shared/icon-hamburger.svg" class="open" style="transition: 0s;"> 
+    <ul class="main">
+      <li class="list"><a href="../index.html"> 00 Home </a></li>
+      <li class="list"><a href="destination.html" style="border-bottom:  4px solid white;"> 01 Destination </a></li><!--هنحطها قائمة منسدلة اسماء الكواكب -->
+      <li class="list"><a href="crew.html"> 02 Crew </a></li>
+      <li class="list"><a href="technology.html"> 03 Technology </a></li>
+  </ul>
+</header>
+<section class="des">
+  <div class="plants">
+    <div id="Moon"><img onclick="moon()" src="../assets/destination/image-moon.png" width="100" alt="Moon" title="Moon" id="Moon" >
+    </div>
+    <div id="mars">
+    <img onclick="mars()" src="../assets/destination/image-mars.png" width="100" alt="Mars" title="Mars" id="Mars">
+    </div>
+    <div id="europa">
+    <img onclick="europa()" src="../assets/destination/image-europa.png" width="100" alt="europa" title="europa" id="europa">
+  </div>
+    <div id="titan">
+    <img onclick="titan()" src="../assets/destination/image-titan.png" width="100" alt="titan" title="titan" id="titan">
+  </div> 
+  </div>
+
+  <div class="the-plant">
+    <img src="" width="400" id="images"> 
+
+    <h1 id="name"></h1>
+
+      <p id="description">
+      </p>
+      <div class="colectDistance">
+        <p id="distanceM" style="top:45vh ; left: 160px; color:white" > Avg. distance :
+          <p id="distance" style="top:45vh; left: 300px; color:white" > </p>
+        </p><br>
+        <p id='travelM' style="top:45vh; left: 500px;color:white">
+          Est. travel time : 
+          <p id='travel' style="top:45vh; left: 640px;color:white"> 
+          </p>
+          </p>
+      </div>
+</div>
+
+</section>
+
+<script src="../app.js"></script>
+</body>
+</html>

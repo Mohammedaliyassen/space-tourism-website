@@ -1,0 +1,21 @@
+ReadMe file ::-
+
+The site is information about space, 
+and it is a display of skill, and I do not recommend that you rely on the information on the site.
+
+The site is divided into 4 sections (Home , Destination , crew , Technology)
+
+1- Home : The beginning of the site and displays information about the service offered by the site
+and a button that takes you to the second section 
+Effects : When you hover the Explore button, its white background turns black and font color turns to whtie
+and When you hover the sections a white line appears below it 
+
+2- Destination : The location of the site services display, which when you click on a picture of them,
+the information appears below it
+Effects : same effects 
+
+3- crew : The location of the team members and the role of each 
+Effects : same effects 
+
+4- Technology : A section for any other services, and here displays the ways to implement the services
+Effects : same effects
