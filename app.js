@@ -63,7 +63,7 @@ const theData = {
       {
         "name": "Victor Glover",
         "images": {
-          "png": "assets/crew/image-victor-glover.jpg",
+          "png": "./assets/crew/image-victor-glover.jpg",
           "webp": "./assets/crew/image-victor-glover.webp"
         },
         "role": "Pilot",
